@@ -1,0 +1,71 @@
+.boxModel {
+  margin: 50px;
+  padding: 30px;
+  width: 600px;
+  background-color: blue;
+  border-bottom: gray solid 3px;
+  border-top: gray solid 3px;
+  border-left: gray solid 3px;
+  border-right: gray solid 3px;
+}
+
+/*.relative {*/
+  /*position: relative;*/
+/*}*/
+
+/*.absolute {*/
+  /*position: absolute;*/
+/*}*/
+
+.container {
+  position: relative;
+  border-bottom: green solid 3px;
+  border-top: green solid 3px;
+  border-left: green solid 3px;
+  border-right: green solid 3px;
+}
+
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  color: black;
+  border-bottom: deeppink solid 3px;
+  border-top: deeppink solid 3px;
+  border-left: deeppink solid 3px;
+  border-right: deeppink solid 3px;
+}
+
+li {
+  color: black;
+}
+
+a {
+  color: deeppink;
+}
+
+section {
+  margin-left: 200px;
+  border-bottom: yellow solid 3px;
+  border-top: yellow solid 3px;
+  border-left: yellow solid 3px;
+  border-right: yellow solid 3px;
+}
+
+.section2 {
+  color: darkred;
+  background-color: darksalmon;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
+body {
+  margin-bottom: 120px;
+}
